@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundblue"
+    android:orientation="vertical"
+    tools:context=".MedicineReminder">
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+
+        android:id="@+id/medicineNameId"
+        android:inputType="textEmailAddress"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:hint="medicine's name"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:background="@drawable/edittextbuttonshape"
+        />
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/MedicineTakenButtonId"
+        android:textSize="20sp"
+        android:background="@drawable/custombuttoncolor"
+        android:textColor="#ffffff"
+        android:text="Click"
+
+
+        />
+    ></LinearLayout>
